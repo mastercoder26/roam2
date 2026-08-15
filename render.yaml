@@ -1,0 +1,38 @@
+# Roam runs a split backend. This blueprint describes only the data API.
+#
+#   iOS ──> Cloud Run `roam-backend` (us-central1)  route difficulty; stateless,
+#           no database and no Clerk credentials.
+#   iOS ──> Render  `roam-data-api`  (this file)    accounts, drive history,
+#           profiles, saved routes; owns the Postgres below.
+#
+# Both deployments run the same `backend/` codebase. The service degrades by
+# design: without DATABASE_URL and CLERK_SECRET_KEY the account endpoints return
+# 503 while route analysis keeps working, which is exactly what Cloud Run wants.
+# Set GOOGLE_MAPS_API_KEY here only if this service should also answer route
+# analysis; it is otherwise unused.
+services:
+  - type: web
+    name: roam-data-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    # Safe here, unlike on Cloud Run: this service runs a single instance, so
+    # concurrent migration runs cannot race on `schema_migrations`. Do NOT copy
+    # this into the Dockerfile CMD — see HANDOFF.md.
+    startCommand: npm run migrate && npm start
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: roam-db
+          property: connectionString
+      - key: CLERK_SECRET_KEY
+        sync: false
+      - key: GOOGLE_MAPS_API_KEY
+        sync: false
+
+databases:
+  - name: roam-db
+    databaseName: roam
+    user: roam
+    plan: free

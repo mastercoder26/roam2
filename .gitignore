@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local agent tooling (machine-specific; not part of the project)
+.claude/
+.conductor/
+.cursor/
+.agents/
+skills-lock.json
+
+# Screen recordings and other local capture
+*.mov
+
+# Regeneratable render output
+tools/intro-render/out/

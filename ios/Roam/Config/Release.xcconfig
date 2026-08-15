@@ -1,0 +1,7 @@
+// Release configuration — point at your deployed API host.
+// Set API_BASE_URL and DATA_API_BASE_URL in Release.local.xcconfig
+// (gitignored); see Release.local.example.xcconfig for the format.
+API_BASE_URL =
+DATA_API_BASE_URL =
+API_FALLBACK_BASE_URL =
+#include? "Release.local.xcconfig"

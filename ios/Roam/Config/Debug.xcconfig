@@ -1,0 +1,7 @@
+// Debug configuration.
+// Route analysis falls back to localhost:3000 and data calls to localhost:3001
+// if nothing here is set. See Debug.local.example.xcconfig.
+API_BASE_URL =
+DATA_API_BASE_URL =
+API_FALLBACK_BASE_URL =
+#include? "Debug.local.xcconfig"

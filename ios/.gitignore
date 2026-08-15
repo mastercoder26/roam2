@@ -1,0 +1,25 @@
+# Build artefacts
+.derivedData/
+build/
+
+# Xcode per-user state
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# IDE workspace checks (machine-generated on first open)
+xcshareddata/IDEWorkspaceChecks.plist
+xcshareddata/WorkspaceSettings.xcsettings
+
+# Signing certificates and provisioning profiles
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+
+# Machine-local xcconfig (contains your dev-machine LAN IP, etc.)
+Roam/Config/Debug.local.xcconfig
+Roam/Config/Release.local.xcconfig
+
+# macOS
+.DS_Store

@@ -1,0 +1,6 @@
+
+API_BASE_URL = https:/$()/YOUR_CLOUD_RUN_URL.a.run.app
+DATA_API_BASE_URL = https:/$()/YOUR_RENDER_DATA_API_URL.onrender.com
+
+
+API_FALLBACK_BASE_URL = http:/$()/YOUR_MAC_LAN_IP:3000

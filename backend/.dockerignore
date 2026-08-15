@@ -1,0 +1,15 @@
+# Secrets must never enter the build context, let alone an image layer.
+.env
+.env.*
+
+node_modules/
+dist/
+.vercel/
+
+# Tests and their fixtures are not shipped in the runtime image.
+**/__tests__/
+vitest.config.ts
+
+.git/
+.gitignore
+*.md

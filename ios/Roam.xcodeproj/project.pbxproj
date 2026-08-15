@@ -1,0 +1,1120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBFCB6E4464444BB2936C89 /* AppIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5BFA4B25844B26BFE25E88 /* AppIconManager.swift */; };
+		F38A1F7818134DBFA869E6BE /* AppIconPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25396EAAE4294CDAACC5E8D4 /* AppIconPickerSheet.swift */; };
+		F12F741FFF4B406383961998 /* AppIconAlt-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE5C0E53A840129B30EA00 /* AppIconAlt-20x20@2x.png */; };
+		506AEF7FDE8E4C71BBB23780 /* AppIconAlt-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA55DDA2E744AFAACA46532 /* AppIconAlt-20x20@3x.png */; };
+		B6E1CC5F1AA94E00A21E97E2 /* AppIconAlt-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B5BE4FA90FE34147B917E18D /* AppIconAlt-29x29@2x.png */; };
+		717A8982D0B14159A7B333CA /* AppIconAlt-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D74B14B7666A4BE9BDED45FE /* AppIconAlt-29x29@3x.png */; };
+		9726FC9F89004325A495CD36 /* AppIconAlt-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 300FAE595EA74EB7BD8451DD /* AppIconAlt-40x40@2x.png */; };
+		40A6EEF1D2F24291A3621A0C /* AppIconAlt-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9EAF96588049B0852628E9 /* AppIconAlt-40x40@3x.png */; };
+		70FDA62F7B8C44DBA86A4DAE /* AppIconAlt-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2C27CEE3F9471F88F3BF3B /* AppIconAlt-60x60@2x.png */; };
+		63A5E297A33C464B9853C815 /* AppIconAlt-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D17157632DC46C1A30100A6 /* AppIconAlt-60x60@3x.png */; };
+		014C8D618E64CA88280CF1F5 /* intro-light.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EEF6DD490DCA0105367F7A7A /* intro-light.mp4 */; };
+		058FB74E7FB5F3A1D365A256 /* intro-ember.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4B703458C075A9A036E73401 /* intro-ember.mp4 */; };
+		1B712EA91159040B45DA993D /* intro-sequoia.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 504414AC708735F35ECEC673 /* intro-sequoia.mp4 */; };
+		75467AECA48723A914DA2E4B /* intro-dark.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1D613E5C6086D71A25BE2 /* intro-dark.mp4 */; };
+		7D24D4F1398E5E009BD768D4 /* AsciiGlobeIntroLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36634240979564F16074C612 /* AsciiGlobeIntroLayer.swift */; };
+		801F9F25AA779A9953455411 /* intro-midnight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B68748C760C76C76BA63801D /* intro-midnight.mp4 */; };
+		A10000000000000000000001 /* RoamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* RoamApp.swift */; };
+		A10000000000000000000002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* HomeView.swift */; };
+		A100000000000000000000FD /* HowRoamWorksSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000FD /* HowRoamWorksSheet.swift */; };
+		A10000000000000000000003 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ResultsView.swift */; };
+		A10000000000000000000004 /* RouteDifficultyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* RouteDifficultyModels.swift */; };
+		A10000000000000000000005 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* APIClient.swift */; };
+		A10000000000000000000007 /* ScoreGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* ScoreGaugeView.swift */; };
+		A10000000000000000000009 /* RouteMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* RouteMapView.swift */; };
+		A1000000000000000000000A /* AlternateRouteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* AlternateRouteCard.swift */; };
+		B13E761EC74FF647592495EE /* RecentRouteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFEBB66D3200D17CE62D949 /* RecentRouteStore.swift */; };
+		B394ED9480F5622A90F861C2 /* RecentRouteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6FB48592CABAD118EBAA1 /* RecentRouteCard.swift */; };
+		A1000000000000000000000B /* AddressSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* AddressSearchField.swift */; };
+		A1000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* Assets.xcassets */; };
+		A1000000000000000000000D /* AnimationConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* AnimationConstants.swift */; };
+		A1000000000000000000000E /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* DesignSystem.swift */; };
+		A10000000000000000000012 /* RoamRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* RoamRootView.swift */; };
+		A10000000000000000000013 /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* DriveView.swift */; };
+		A10000000000000000000014 /* DriveSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* DriveSessionManager.swift */; };
+		A10000000000000000000015 /* DrivingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* DrivingScore.swift */; };
+		A10000000000000000000016 /* DriveScoringEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* DriveScoringEngine.swift */; };
+		A10000000000000000000017 /* RouteAnalysisLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* RouteAnalysisLoadingView.swift */; };
+		A10000000000000000000018 /* RoutePlanningLocationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* RoutePlanningLocationCoordinator.swift */; };
+		A10000000000000000000019 /* DriverReadinessEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* DriverReadinessEngine.swift */; };
+		A1000000000000000000001A /* DriveExperienceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001A /* DriveExperienceEngine.swift */; };
+		A1000000000000000000001B /* RouteChoiceRankingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* RouteChoiceRankingEngine.swift */; };
+		A1000000000000000000001C /* PracticePlanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* PracticePlanEngine.swift */; };
+		A1000000000000000000001D /* DriveReplayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* DriveReplayEngine.swift */; };
+		A1000000000000000000001E /* DriverProgressEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* DriverProgressEngine.swift */; };
+		A1000000000000000000001F /* PhonePlacementAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* PhonePlacementAnalyzer.swift */; };
+		A10000000000000000000020 /* DriverProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* DriverProgressView.swift */; };
+		A10000000000000000000021 /* DriveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* DriveActivityAttributes.swift */; };
+		A10000000000000000000022 /* DriveLiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* DriveLiveActivityManager.swift */; };
+		A10000000000000000000023 /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* CarPlaySceneDelegate.swift */; };
+		A10000000000000000000024 /* DriveActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* DriveActivityWidget.swift */; };
+		A10000000000000000000025 /* DriveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* DriveActivityAttributes.swift */; };
+		A10000000000000000000026 /* RoamDriveActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30000000000000000000002 /* RoamDriveActivityExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A10000000000000000000027 /* DrivePresentationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* DrivePresentationEngine.swift */; };
+		A10000000000000000000028 /* SharedRouteImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* SharedRouteImport.swift */; };
+		A10000000000000000000029 /* RoutePlanningFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000028 /* RoutePlanningFormModel.swift */; };
+		A1000000000000000000002A /* SharedRouteImportCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000029 /* SharedRouteImportCoordinator.swift */; };
+		A1000000000000000000002B /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002A /* ShareViewController.swift */; };
+		A1000000000000000000002C /* SharedRouteImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* SharedRouteImport.swift */; };
+		A1000000000000000000002D /* RoamRouteShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30000000000000000000003 /* RoamRouteShareExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1000000000000000000002E /* DriveHistoryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002E /* DriveHistoryPolicy.swift */; };
+		A1000000000000000000002F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000002F /* Theme.swift */; };
+		A10000000000000000000030 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000030 /* ThemeManager.swift */; };
+		A10000000000000000000031 /* ThemePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000031 /* ThemePickerSheet.swift */; };
+		A10000000000000000000032 /* LayoutResponsiveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000032 /* LayoutResponsiveness.swift */; };
+		A10000000000000000000033 /* DriverPerformanceEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000033 /* DriverPerformanceEngine.swift */; };
+		A10000000000000000000FC /* DriveStatusMessageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000FC /* DriveStatusMessageEngine.swift */; };
+		A10000000000000000000034 /* RouteEvidenceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000034 /* RouteEvidenceCard.swift */; };
+		A10000000000000000000035 /* DriveDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000035 /* DriveDetailViews.swift */; };
+		A10000000000000000000036 /* ResultsSupportingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000036 /* ResultsSupportingViews.swift */; };
+		A10000000000000000000037 /* DriverReadinessModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000037 /* DriverReadinessModels.swift */; };
+		A10000000000000000000045 /* RouteAnalysisDebugInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000045 /* RouteAnalysisDebugInfo.swift */; };
+		A10000000000000000000038 /* DriverReadinessSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000038 /* DriverReadinessSupport.swift */; };
+		A10000000000000000000039 /* DriverReadinessConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000039 /* DriverReadinessConfiguration.swift */; };
+		A10000000000000000000040 /* DriverReadinessProfileBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000040 /* DriverReadinessProfileBuilder.swift */; };
+		A10000000000000000000041 /* DriverReadinessRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000041 /* DriverReadinessRouteMatcher.swift */; };
+		A10000000000000000000042 /* DrivePlanningSupportingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000042 /* DrivePlanningSupportingViews.swift */; };
+		A10000000000000000000043 /* LaunchIntroChoreography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000043 /* LaunchIntroChoreography.swift */; };
+		A10000000000000000000044 /* LaunchIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000044 /* LaunchIntroView.swift */; };
+		A100000000000000000000F1 /* DriverProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F1 /* DriverProfile.swift */; };
+		A100000000000000000000F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F2 /* ProfileView.swift */; };
+		A100000000000000000000F3 /* DriverProfileInsightsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F3 /* DriverProfileInsightsEngine.swift */; };
+		A100000000000000000000F4 /* ProfileSupportingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F4 /* ProfileSupportingViews.swift */; };
+		A100000000000000000000F5 /* FeatureWalkthroughSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F5 /* FeatureWalkthroughSheet.swift */; };
+		A100000000000000000000F6 /* FeatureWalkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F6 /* FeatureWalkthrough.swift */; };
+		A100000000000000000000F8 /* AuthSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000F8 /* AuthSessionStore.swift */; };
+		A100000000000000000000FB /* DriveHistorySyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000000000000000000FB /* DriveHistorySyncService.swift */; };
+		C10000000000000000000001 /* ClerkBackendClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* ClerkBackendClient.swift */; };
+		D10000000000000000000001 /* PremiumMotionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000001 /* PremiumMotionSpec.swift */; };
+		D10000000000000000000002 /* PremiumMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000002 /* PremiumMotion.swift */; };
+		D10000000000000000000003 /* HowRoamWorksLayoutSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20000000000000000000003 /* HowRoamWorksLayoutSpec.swift */; };
+		F6FF09CA970740C1E2A01644 /* intro-goldfish.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2B9DF49B43552A1481D5ECFD /* intro-goldfish.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB00000000000000000000002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000002;
+			remoteInfo = RoamDriveActivityExtension;
+		};
+		AB00000000000000000000003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000000000000000000003;
+			remoteInfo = RoamRouteShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A70000000000000000000005 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A10000000000000000000026 /* RoamDriveActivityExtension.appex in Embed Foundation Extensions */,
+				A1000000000000000000002D /* RoamRouteShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D5BFA4B25844B26BFE25E88 /* AppIconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconManager.swift; sourceTree = "<group>"; };
+		25396EAAE4294CDAACC5E8D4 /* AppIconPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconPickerSheet.swift; sourceTree = "<group>"; };
+		9AFE5C0E53A840129B30EA00 /* AppIconAlt-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-20x20@2x.png"; sourceTree = "<group>"; };
+		CDA55DDA2E744AFAACA46532 /* AppIconAlt-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-20x20@3x.png"; sourceTree = "<group>"; };
+		B5BE4FA90FE34147B917E18D /* AppIconAlt-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-29x29@2x.png"; sourceTree = "<group>"; };
+		D74B14B7666A4BE9BDED45FE /* AppIconAlt-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-29x29@3x.png"; sourceTree = "<group>"; };
+		300FAE595EA74EB7BD8451DD /* AppIconAlt-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-40x40@2x.png"; sourceTree = "<group>"; };
+		0E9EAF96588049B0852628E9 /* AppIconAlt-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-40x40@3x.png"; sourceTree = "<group>"; };
+		2D2C27CEE3F9471F88F3BF3B /* AppIconAlt-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-60x60@2x.png"; sourceTree = "<group>"; };
+		2D17157632DC46C1A30100A6 /* AppIconAlt-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIconAlt-60x60@3x.png"; sourceTree = "<group>"; };
+		2B9DF49B43552A1481D5ECFD /* intro-goldfish.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-goldfish.mp4"; sourceTree = "<group>"; };
+		2CB1D613E5C6086D71A25BE2 /* intro-dark.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-dark.mp4"; sourceTree = "<group>"; };
+		36634240979564F16074C612 /* AsciiGlobeIntroLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AsciiGlobeIntroLayer.swift; sourceTree = "<group>"; };
+		4B703458C075A9A036E73401 /* intro-ember.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-ember.mp4"; sourceTree = "<group>"; };
+		504414AC708735F35ECEC673 /* intro-sequoia.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-sequoia.mp4"; sourceTree = "<group>"; };
+		A20000000000000000000001 /* RoamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A200000000000000000000FD /* HowRoamWorksSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowRoamWorksSheet.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* RouteDifficultyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDifficultyModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* ScoreGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGaugeView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* RouteMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteMapView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* AlternateRouteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateRouteCard.swift; sourceTree = "<group>"; };
+		6BFEBB66D3200D17CE62D949 /* RecentRouteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentRouteStore.swift; sourceTree = "<group>"; };
+		3EE6FB48592CABAD118EBAA1 /* RecentRouteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentRouteCard.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* AddressSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchField.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000000000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000000E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		A2000000000000000000000F /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		A20000000000000000000010 /* AnimationConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationConstants.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		D20000000000000000000001 /* PremiumMotionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumMotionSpec.swift; sourceTree = "<group>"; };
+		D20000000000000000000002 /* PremiumMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumMotion.swift; sourceTree = "<group>"; };
+		D20000000000000000000003 /* HowRoamWorksLayoutSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowRoamWorksLayoutSpec.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* RoamRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamRootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* DriveSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveSessionManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* DrivingScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingScore.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* DriveScoringEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveScoringEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* RouteAnalysisLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAnalysisLoadingView.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* RoutePlanningLocationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlanningLocationCoordinator.swift; sourceTree = "<group>"; };
+		A20000000000000000000019 /* DriverReadinessEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001A /* DriveExperienceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveExperienceEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* RouteChoiceRankingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteChoiceRankingEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001C /* PracticePlanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticePlanEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* DriveReplayEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveReplayEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001E /* DriverProgressEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProgressEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* PhonePlacementAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePlacementAnalyzer.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* DriverProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProgressView.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* DriveActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveActivityAttributes.swift; sourceTree = "<group>"; };
+		A20000000000000000000022 /* DriveLiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveLiveActivityManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000023 /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000024 /* DriveActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveActivityWidget.swift; sourceTree = "<group>"; };
+		A20000000000000000000025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000026 /* DrivePresentationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePresentationEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000027 /* SharedRouteImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedRouteImport.swift; sourceTree = "<group>"; };
+		A20000000000000000000028 /* RoutePlanningFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutePlanningFormModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000029 /* SharedRouteImportCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedRouteImportCoordinator.swift; sourceTree = "<group>"; };
+		A2000000000000000000002A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		A2000000000000000000002B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000000000000000000002C /* Roam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Roam.entitlements; sourceTree = "<group>"; };
+		A2000000000000000000002D /* RoamRouteShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoamRouteShareExtension.entitlements; sourceTree = "<group>"; };
+		A2000000000000000000002E /* DriveHistoryPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveHistoryPolicy.swift; sourceTree = "<group>"; };
+		A2000000000000000000002F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A20000000000000000000030 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000031 /* ThemePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerSheet.swift; sourceTree = "<group>"; };
+		A20000000000000000000032 /* LayoutResponsiveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutResponsiveness.swift; sourceTree = "<group>"; };
+		A20000000000000000000033 /* DriverPerformanceEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverPerformanceEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000FC /* DriveStatusMessageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveStatusMessageEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000034 /* RouteEvidenceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEvidenceCard.swift; sourceTree = "<group>"; };
+		A20000000000000000000035 /* DriveDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveDetailViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000036 /* ResultsSupportingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsSupportingViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000037 /* DriverReadinessModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000045 /* RouteAnalysisDebugInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAnalysisDebugInfo.swift; sourceTree = "<group>"; };
+		A20000000000000000000038 /* DriverReadinessSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessSupport.swift; sourceTree = "<group>"; };
+		A20000000000000000000039 /* DriverReadinessConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessConfiguration.swift; sourceTree = "<group>"; };
+		A20000000000000000000040 /* DriverReadinessProfileBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessProfileBuilder.swift; sourceTree = "<group>"; };
+		A20000000000000000000041 /* DriverReadinessRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverReadinessRouteMatcher.swift; sourceTree = "<group>"; };
+		A20000000000000000000042 /* DrivePlanningSupportingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivePlanningSupportingViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000043 /* LaunchIntroChoreography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchIntroChoreography.swift; sourceTree = "<group>"; };
+		A20000000000000000000044 /* LaunchIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchIntroView.swift; sourceTree = "<group>"; };
+		A200000000000000000000F1 /* DriverProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfile.swift; sourceTree = "<group>"; };
+		A200000000000000000000F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A200000000000000000000F3 /* DriverProfileInsightsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileInsightsEngine.swift; sourceTree = "<group>"; };
+		A200000000000000000000F4 /* ProfileSupportingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSupportingViews.swift; sourceTree = "<group>"; };
+		A200000000000000000000F5 /* FeatureWalkthroughSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureWalkthroughSheet.swift; sourceTree = "<group>"; };
+		A200000000000000000000F6 /* FeatureWalkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureWalkthrough.swift; sourceTree = "<group>"; };
+		A200000000000000000000F8 /* AuthSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSessionStore.swift; sourceTree = "<group>"; };
+		A200000000000000000000FB /* DriveHistorySyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveHistorySyncService.swift; sourceTree = "<group>"; };
+		C20000000000000000000001 /* ClerkBackendClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClerkBackendClient.swift; sourceTree = "<group>"; };
+		A30000000000000000000001 /* Roam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000002 /* RoamDriveActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoamDriveActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000000000000000000003 /* RoamRouteShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoamRouteShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68748C760C76C76BA63801D /* intro-midnight.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-midnight.mp4"; sourceTree = "<group>"; };
+		EEF6DD490DCA0105367F7A7A /* intro-light.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; path = "intro-light.mp4"; sourceTree = "<group>"; };
+		F4B7F709301E7D5F003C2863 /* Debug.local.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.local.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9090B1B64E11ABD08391F90B /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				2CB1D613E5C6086D71A25BE2 /* intro-dark.mp4 */,
+				EEF6DD490DCA0105367F7A7A /* intro-light.mp4 */,
+				2B9DF49B43552A1481D5ECFD /* intro-goldfish.mp4 */,
+				B68748C760C76C76BA63801D /* intro-midnight.mp4 */,
+				4B703458C075A9A036E73401 /* intro-ember.mp4 */,
+				504414AC708735F35ECEC673 /* intro-sequoia.mp4 */,
+			);
+			name = Intro;
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000002 /* Roam */,
+				A5000000000000000000000F /* RoamDriveActivityExtension */,
+				A50000000000000000000010 /* RoamRouteShareExtension */,
+				A50000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* Roam */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* RoamApp.swift */,
+				A50000000000000000000004 /* Features */,
+				A50000000000000000000005 /* Models */,
+				A50000000000000000000006 /* Services */,
+				A5000000000000000000000B /* Utilities */,
+				A50000000000000000000007 /* Components */,
+				A50000000000000000000008 /* Config */,
+				A2000000000000000000000C /* Assets.xcassets */,
+				825F10D7936841F4BE8AA4CD /* AlternateAppIcons */,
+				A2000000000000000000000D /* Info.plist */,
+				A2000000000000000000002C /* Roam.entitlements */,
+				D7F99E49D90C22CDFC826EC0 /* Resources */,
+			);
+			path = Roam;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* Roam.app */,
+				A30000000000000000000002 /* RoamDriveActivityExtension.appex */,
+				A30000000000000000000003 /* RoamRouteShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000004 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A5000000000000000000000C /* Root */,
+				A50000000000000000000009 /* Home */,
+				A5000000000000000000000A /* Results */,
+				A5000000000000000000000D /* Drive */,
+				A5000000000000000000000E /* Progress */,
+				A500000000000000000000F0 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000004 /* RouteDifficultyModels.swift */,
+				A20000000000000000000015 /* DrivingScore.swift */,
+				A20000000000000000000016 /* DriveScoringEngine.swift */,
+				A2000000000000000000001A /* DriveExperienceEngine.swift */,
+				A2000000000000000000001B /* RouteChoiceRankingEngine.swift */,
+				A2000000000000000000001C /* PracticePlanEngine.swift */,
+				A2000000000000000000001D /* DriveReplayEngine.swift */,
+				A2000000000000000000001E /* DriverProgressEngine.swift */,
+				A20000000000000000000033 /* DriverPerformanceEngine.swift */,
+				A20000000000000000000FC /* DriveStatusMessageEngine.swift */,
+				A2000000000000000000001F /* PhonePlacementAnalyzer.swift */,
+				A20000000000000000000019 /* DriverReadinessEngine.swift */,
+				A20000000000000000000037 /* DriverReadinessModels.swift */,
+				A20000000000000000000038 /* DriverReadinessSupport.swift */,
+				A20000000000000000000039 /* DriverReadinessConfiguration.swift */,
+				A20000000000000000000040 /* DriverReadinessProfileBuilder.swift */,
+				A20000000000000000000041 /* DriverReadinessRouteMatcher.swift */,
+				A20000000000000000000018 /* RoutePlanningLocationCoordinator.swift */,
+				A20000000000000000000021 /* DriveActivityAttributes.swift */,
+				A20000000000000000000026 /* DrivePresentationEngine.swift */,
+				A2000000000000000000002E /* DriveHistoryPolicy.swift */,
+				A2000000000000000000002F /* Theme.swift */,
+				A20000000000000000000043 /* LaunchIntroChoreography.swift */,
+				A20000000000000000000027 /* SharedRouteImport.swift */,
+				A200000000000000000000F3 /* DriverProfileInsightsEngine.swift */,
+				A20000000000000000000045 /* RouteAnalysisDebugInfo.swift */,
+				A200000000000000000000F6 /* FeatureWalkthrough.swift */,
+				D20000000000000000000001 /* PremiumMotionSpec.swift */,
+				D20000000000000000000003 /* HowRoamWorksLayoutSpec.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D5BFA4B25844B26BFE25E88 /* AppIconManager.swift */,
+				A20000000000000000000005 /* APIClient.swift */,
+				C20000000000000000000001 /* ClerkBackendClient.swift */,
+				A200000000000000000000F8 /* AuthSessionStore.swift */,
+				A200000000000000000000FB /* DriveHistorySyncService.swift */,
+				A20000000000000000000014 /* DriveSessionManager.swift */,
+				A20000000000000000000022 /* DriveLiveActivityManager.swift */,
+				A20000000000000000000023 /* CarPlaySceneDelegate.swift */,
+				A20000000000000000000029 /* SharedRouteImportCoordinator.swift */,
+				A20000000000000000000030 /* ThemeManager.swift */,
+				6BFEBB66D3200D17CE62D949 /* RecentRouteStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000007 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* ScoreGaugeView.swift */,
+				A20000000000000000000009 /* RouteMapView.swift */,
+				A2000000000000000000000A /* AlternateRouteCard.swift */,
+				A2000000000000000000000B /* AddressSearchField.swift */,
+				A20000000000000000000034 /* RouteEvidenceCard.swift */,
+				A20000000000000000000017 /* RouteAnalysisLoadingView.swift */,
+				3EE6FB48592CABAD118EBAA1 /* RecentRouteCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000008 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7F709301E7D5F003C2863 /* Debug.local.xcconfig */,
+				A2000000000000000000000E /* Debug.xcconfig */,
+				A2000000000000000000000F /* Release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000009 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000002 /* HomeView.swift */,
+				A200000000000000000000FD /* HowRoamWorksSheet.swift */,
+				A20000000000000000000028 /* RoutePlanningFormModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000A /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000003 /* ResultsView.swift */,
+				A20000000000000000000036 /* ResultsSupportingViews.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000010 /* AnimationConstants.swift */,
+				A20000000000000000000011 /* DesignSystem.swift */,
+				A20000000000000000000032 /* LayoutResponsiveness.swift */,
+				D20000000000000000000002 /* PremiumMotion.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				25396EAAE4294CDAACC5E8D4 /* AppIconPickerSheet.swift */,
+				A20000000000000000000012 /* RoamRootView.swift */,
+				A20000000000000000000031 /* ThemePickerSheet.swift */,
+				A20000000000000000000044 /* LaunchIntroView.swift */,
+				36634240979564F16074C612 /* AsciiGlobeIntroLayer.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000D /* Drive */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000013 /* DriveView.swift */,
+				A20000000000000000000035 /* DriveDetailViews.swift */,
+				A20000000000000000000042 /* DrivePlanningSupportingViews.swift */,
+			);
+			path = Drive;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000E /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000020 /* DriverProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		A5000000000000000000000F /* RoamDriveActivityExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000024 /* DriveActivityWidget.swift */,
+				A20000000000000000000025 /* Info.plist */,
+			);
+			path = RoamDriveActivityExtension;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000010 /* RoamRouteShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000002A /* ShareViewController.swift */,
+				A2000000000000000000002B /* Info.plist */,
+				A2000000000000000000002D /* RoamRouteShareExtension.entitlements */,
+			);
+			path = RoamRouteShareExtension;
+			sourceTree = "<group>";
+		};
+		A500000000000000000000F0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A200000000000000000000F1 /* DriverProfile.swift */,
+				A200000000000000000000F2 /* ProfileView.swift */,
+				A200000000000000000000F4 /* ProfileSupportingViews.swift */,
+				A200000000000000000000F5 /* FeatureWalkthroughSheet.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D7F99E49D90C22CDFC826EC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9090B1B64E11ABD08391F90B /* Intro */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		825F10D7936841F4BE8AA4CD /* AlternateAppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				9AFE5C0E53A840129B30EA00 /* AppIconAlt-20x20@2x.png */,
+				CDA55DDA2E744AFAACA46532 /* AppIconAlt-20x20@3x.png */,
+				B5BE4FA90FE34147B917E18D /* AppIconAlt-29x29@2x.png */,
+				D74B14B7666A4BE9BDED45FE /* AppIconAlt-29x29@3x.png */,
+				300FAE595EA74EB7BD8451DD /* AppIconAlt-40x40@2x.png */,
+				0E9EAF96588049B0852628E9 /* AppIconAlt-40x40@3x.png */,
+				2D2C27CEE3F9471F88F3BF3B /* AppIconAlt-60x60@2x.png */,
+				2D17157632DC46C1A30100A6 /* AppIconAlt-60x60@3x.png */,
+			);
+			path = AlternateAppIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* Roam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000003 /* Build configuration list for PBXNativeTarget "Roam" */;
+			buildPhases = (
+				A70000000000000000000001 /* Sources */,
+				A40000000000000000000001 /* Frameworks */,
+				A70000000000000000000002 /* Resources */,
+				A70000000000000000000005 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB00000000000000000000001 /* PBXTargetDependency */,
+				AB00000000000000000000004 /* PBXTargetDependency */,
+			);
+			name = Roam;
+			packageProductDependencies = (
+				C30000000000000000000001 /* ClerkKit */,
+				C30000000000000000000002 /* ClerkKitUI */,
+			);
+			productName = Roam;
+			productReference = A30000000000000000000001 /* Roam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000000000000000000002 /* RoamDriveActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000004 /* Build configuration list for PBXNativeTarget "RoamDriveActivityExtension" */;
+			buildPhases = (
+				A70000000000000000000003 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A70000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoamDriveActivityExtension;
+			productName = RoamDriveActivityExtension;
+			productReference = A30000000000000000000002 /* RoamDriveActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A60000000000000000000003 /* RoamRouteShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000005 /* Build configuration list for PBXNativeTarget "RoamRouteShareExtension" */;
+			buildPhases = (
+				A70000000000000000000006 /* Sources */,
+				A40000000000000000000003 /* Frameworks */,
+				A70000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoamRouteShareExtension;
+			productName = RoamRouteShareExtension;
+			productReference = A30000000000000000000003 /* RoamRouteShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A60000000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A60000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A60000000000000000000003 = {
+						CreatedOnToolsVersion = 15.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "Roam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000000000000000000001;
+			packageReferences = (
+				C40000000000000000000001 /* XCRemoteSwiftPackageReference "clerk-ios" */,
+			);
+			productRefGroup = A50000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* Roam */,
+				A60000000000000000000002 /* RoamDriveActivityExtension */,
+				A60000000000000000000003 /* RoamRouteShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12F741FFF4B406383961998 /* AppIconAlt-20x20@2x.png in Resources */,
+				506AEF7FDE8E4C71BBB23780 /* AppIconAlt-20x20@3x.png in Resources */,
+				B6E1CC5F1AA94E00A21E97E2 /* AppIconAlt-29x29@2x.png in Resources */,
+				717A8982D0B14159A7B333CA /* AppIconAlt-29x29@3x.png in Resources */,
+				9726FC9F89004325A495CD36 /* AppIconAlt-40x40@2x.png in Resources */,
+				40A6EEF1D2F24291A3621A0C /* AppIconAlt-40x40@3x.png in Resources */,
+				70FDA62F7B8C44DBA86A4DAE /* AppIconAlt-60x60@2x.png in Resources */,
+				63A5E297A33C464B9853C815 /* AppIconAlt-60x60@3x.png in Resources */,
+				A1000000000000000000000C /* Assets.xcassets in Resources */,
+				75467AECA48723A914DA2E4B /* intro-dark.mp4 in Resources */,
+				014C8D618E64CA88280CF1F5 /* intro-light.mp4 in Resources */,
+				F6FF09CA970740C1E2A01644 /* intro-goldfish.mp4 in Resources */,
+				801F9F25AA779A9953455411 /* intro-midnight.mp4 in Resources */,
+				058FB74E7FB5F3A1D365A256 /* intro-ember.mp4 in Resources */,
+				1B712EA91159040B45DA993D /* intro-sequoia.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBFCB6E4464444BB2936C89 /* AppIconManager.swift in Sources */,
+				F38A1F7818134DBFA869E6BE /* AppIconPickerSheet.swift in Sources */,
+				A10000000000000000000001 /* RoamApp.swift in Sources */,
+				A10000000000000000000002 /* HomeView.swift in Sources */,
+				A100000000000000000000FD /* HowRoamWorksSheet.swift in Sources */,
+				A10000000000000000000003 /* ResultsView.swift in Sources */,
+				B13E761EC74FF647592495EE /* RecentRouteStore.swift in Sources */,
+				B394ED9480F5622A90F861C2 /* RecentRouteCard.swift in Sources */,
+				A10000000000000000000004 /* RouteDifficultyModels.swift in Sources */,
+				A10000000000000000000005 /* APIClient.swift in Sources */,
+				A10000000000000000000007 /* ScoreGaugeView.swift in Sources */,
+				A10000000000000000000009 /* RouteMapView.swift in Sources */,
+				A1000000000000000000000A /* AlternateRouteCard.swift in Sources */,
+				A1000000000000000000000B /* AddressSearchField.swift in Sources */,
+				A1000000000000000000000D /* AnimationConstants.swift in Sources */,
+				A1000000000000000000000E /* DesignSystem.swift in Sources */,
+				D10000000000000000000001 /* PremiumMotionSpec.swift in Sources */,
+				D10000000000000000000002 /* PremiumMotion.swift in Sources */,
+				D10000000000000000000003 /* HowRoamWorksLayoutSpec.swift in Sources */,
+				A10000000000000000000012 /* RoamRootView.swift in Sources */,
+				A10000000000000000000013 /* DriveView.swift in Sources */,
+				A10000000000000000000014 /* DriveSessionManager.swift in Sources */,
+				A10000000000000000000015 /* DrivingScore.swift in Sources */,
+				A10000000000000000000016 /* DriveScoringEngine.swift in Sources */,
+				A10000000000000000000017 /* RouteAnalysisLoadingView.swift in Sources */,
+				A10000000000000000000018 /* RoutePlanningLocationCoordinator.swift in Sources */,
+				A10000000000000000000019 /* DriverReadinessEngine.swift in Sources */,
+				A1000000000000000000001A /* DriveExperienceEngine.swift in Sources */,
+				A1000000000000000000001B /* RouteChoiceRankingEngine.swift in Sources */,
+				A1000000000000000000001C /* PracticePlanEngine.swift in Sources */,
+				A1000000000000000000001D /* DriveReplayEngine.swift in Sources */,
+				A1000000000000000000001E /* DriverProgressEngine.swift in Sources */,
+				A1000000000000000000001F /* PhonePlacementAnalyzer.swift in Sources */,
+				A10000000000000000000020 /* DriverProgressView.swift in Sources */,
+				A10000000000000000000021 /* DriveActivityAttributes.swift in Sources */,
+				A10000000000000000000022 /* DriveLiveActivityManager.swift in Sources */,
+				A10000000000000000000023 /* CarPlaySceneDelegate.swift in Sources */,
+				A10000000000000000000027 /* DrivePresentationEngine.swift in Sources */,
+				A1000000000000000000002E /* DriveHistoryPolicy.swift in Sources */,
+				A100000000000000000000F1 /* DriverProfile.swift in Sources */,
+				A100000000000000000000F2 /* ProfileView.swift in Sources */,
+				A100000000000000000000F3 /* DriverProfileInsightsEngine.swift in Sources */,
+				A100000000000000000000F4 /* ProfileSupportingViews.swift in Sources */,
+				A100000000000000000000F5 /* FeatureWalkthroughSheet.swift in Sources */,
+				A100000000000000000000F6 /* FeatureWalkthrough.swift in Sources */,
+				C10000000000000000000001 /* ClerkBackendClient.swift in Sources */,
+				A100000000000000000000F8 /* AuthSessionStore.swift in Sources */,
+				A100000000000000000000FB /* DriveHistorySyncService.swift in Sources */,
+				A1000000000000000000002F /* Theme.swift in Sources */,
+				A10000000000000000000030 /* ThemeManager.swift in Sources */,
+				A10000000000000000000031 /* ThemePickerSheet.swift in Sources */,
+				A10000000000000000000032 /* LayoutResponsiveness.swift in Sources */,
+				A10000000000000000000033 /* DriverPerformanceEngine.swift in Sources */,
+				A10000000000000000000FC /* DriveStatusMessageEngine.swift in Sources */,
+				A10000000000000000000034 /* RouteEvidenceCard.swift in Sources */,
+				A10000000000000000000035 /* DriveDetailViews.swift in Sources */,
+				A10000000000000000000036 /* ResultsSupportingViews.swift in Sources */,
+				A10000000000000000000037 /* DriverReadinessModels.swift in Sources */,
+				A10000000000000000000045 /* RouteAnalysisDebugInfo.swift in Sources */,
+				A10000000000000000000038 /* DriverReadinessSupport.swift in Sources */,
+				A10000000000000000000039 /* DriverReadinessConfiguration.swift in Sources */,
+				A10000000000000000000040 /* DriverReadinessProfileBuilder.swift in Sources */,
+				A10000000000000000000041 /* DriverReadinessRouteMatcher.swift in Sources */,
+				A10000000000000000000042 /* DrivePlanningSupportingViews.swift in Sources */,
+				A10000000000000000000043 /* LaunchIntroChoreography.swift in Sources */,
+				A10000000000000000000044 /* LaunchIntroView.swift in Sources */,
+				A10000000000000000000028 /* SharedRouteImport.swift in Sources */,
+				A10000000000000000000029 /* RoutePlanningFormModel.swift in Sources */,
+				A1000000000000000000002A /* SharedRouteImportCoordinator.swift in Sources */,
+				7D24D4F1398E5E009BD768D4 /* AsciiGlobeIntroLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000024 /* DriveActivityWidget.swift in Sources */,
+				A10000000000000000000025 /* DriveActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000002B /* ShareViewController.swift in Sources */,
+				A1000000000000000000002C /* SharedRouteImport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000002 /* RoamDriveActivityExtension */;
+			targetProxy = AB00000000000000000000002 /* PBXContainerItemProxy */;
+		};
+		AB00000000000000000000004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000000000000000000003 /* RoamRouteShareExtension */;
+			targetProxy = AB00000000000000000000003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C40000000000000000000001 /* XCRemoteSwiftPackageReference "clerk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/clerk/clerk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C30000000000000000000001 /* ClerkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C40000000000000000000001 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = ClerkKit;
+		};
+		C30000000000000000000002 /* ClerkKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C40000000000000000000001 /* XCRemoteSwiftPackageReference "clerk-ios" */;
+			productName = ClerkKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2000000000000000000000E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2000000000000000000000F /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Roam/Roam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Roam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Roam/Roam.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Roam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoamDriveActivityExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam.driveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoamDriveActivityExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam.driveactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA0000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RoamRouteShareExtension/RoamRouteShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoamRouteShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam.routeshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA0000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RoamRouteShareExtension/RoamRouteShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RT6KBS4G9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RoamRouteShareExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhil.roam.routeshare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "Roam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000001 /* Debug */,
+				AA0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000003 /* Build configuration list for PBXNativeTarget "Roam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000003 /* Debug */,
+				AA0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000004 /* Build configuration list for PBXNativeTarget "RoamDriveActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000005 /* Debug */,
+				AA0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000005 /* Build configuration list for PBXNativeTarget "RoamRouteShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000000000000000000007 /* Debug */,
+				AA0000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000000000000000000001 /* Project object */;
+}

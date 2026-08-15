@@ -1,0 +1,11 @@
+{
+  "name": "roam",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend run start",
+    "build": "npm --prefix backend run build",
+    "test": "npm --prefix backend run test"
+  }
+}

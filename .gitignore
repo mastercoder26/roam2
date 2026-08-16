@@ -1,6 +1,10 @@
 # macOS
 .DS_Store
 
+# Xcode
+DerivedData/
+.swiftpm/
+
 # Node
 node_modules/
 

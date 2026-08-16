@@ -5,7 +5,7 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 import puppeteer from 'puppeteer';
-import { themeHexes, THEME_IDS } from './themes.mjs';
+import { themeHexes, THEME_IDS } from './themes.mjs';s
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(__dirname, 'public');

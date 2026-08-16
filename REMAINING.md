@@ -43,9 +43,9 @@ full narrative and reasoning if you need the "why."
       server drives as a union and never calls `DELETE /api/drives/:id`
       (which the backend already supports). Delete a drive on the phone and
       it comes back on the next sync.
-- [ ] **`README.md` is stale** — still documents Render as a single combined
-      backend deploy target and references `JWT_SECRET`. Doesn't match the
-      split-backend + Clerk reality anymore.
+- [x] ~~`README.md` is stale~~ — updated with the split-backend + Clerk
+      deployment direction; see `docs/deployment.md` for the operational
+      details.
 - [ ] Re-check `ios/tests/SharedRouteImportChecks.swift` for flakiness — it
       failed once this session on an unrelated run with no source changes,
       then passed repeatedly after.

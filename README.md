@@ -1,6 +1,7 @@
 # Roam
 
-Roam helps families plan for a drive and practise safer driving. Four tabs:
+Roam helps families plan for a drive and practise safer driving. The app is
+organized around four tabs:
 
 - **Routes** scores a planned route's driving difficulty, compares the returned
   choices against privately recorded experience, offers guided practice plans,

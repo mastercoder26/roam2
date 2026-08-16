@@ -1,6 +1,7 @@
 {
   "name": "roam",
   "version": "1.0.0",
+  "description": "Safer-driving planning and coaching prototype",
   "private": true,
   "scripts": {
     "dev": "npm --prefix backend run dev",

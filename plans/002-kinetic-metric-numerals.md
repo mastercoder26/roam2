@@ -3,7 +3,7 @@
 - **Status**: DONE
 - **Commit**: 7f3a4b7
 - **Severity**: MEDIUM
-- **Category**: Missed opportunities
+- **Category**: Missed opportunitiessd
 - **Estimated scope**: 4 files, ~130 lines
 
 ## Problem

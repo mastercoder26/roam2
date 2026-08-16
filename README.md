@@ -87,6 +87,11 @@ developers who don't have it.
 
 ## Backend
 
+The backend is deployed as two services: Cloud Run handles route analysis, while
+Render handles authenticated accounts, profiles, drive history, and saved
+routes. See [docs/deployment.md](docs/deployment.md) for the service boundary
+and configuration details.
+
 ```bash
 npm run dev    # http://localhost:3000
 npm test       # backend scoring tests

@@ -10,8 +10,7 @@ was fixed is in the working tree, not here.
 Verification at time of writing: iOS `** BUILD SUCCEEDED **`; backend 103/103;
 **17 of 17** standalone Swift checks pass via `ios/tests/run-checks.sh`.
 
-Accessibility and reduce-motion were excluded from scope throughout.
-
+Accessibility and reduce-motion were excluded from scope throughout.sd
 ---
 
 ## Coverage warning — read first
